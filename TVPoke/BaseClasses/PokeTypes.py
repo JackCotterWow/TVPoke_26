@@ -22,4 +22,4 @@ class Electric(Pokemon):
 
 
 
-        
+        95 HP, 79 Defense, 60 Special Attack, and 81 Speed
