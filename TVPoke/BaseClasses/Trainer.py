@@ -8,7 +8,7 @@ class Trainer:
             PokeClass = getattr(pokeFile, poke)
             self.pokemon.append(PokeClass())
 
-    def removeFaintedPokemon(self):
+    def removeFaintedPokemon(self): #death
         for poke in self.pokemon:
             if poke.hp <= 0:
                 self.pokemon.remove(poke)
